@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.background {
+    /*background-image: url(Imágenes/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra.jpg);*/
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-main {
+    display: flex;
+}
+
+.hi {
+    color: rgb(11, 140, 129);
+}
+
+.name{
+    
+}
+
+.hero-main {
+    text-align: center;
+    display: grid;
+    align-content: center;
+    font-size: x-large;
+    font-family: system-ui;
+    font-weight: 600;
+    padding: 5% 10%;
+    color: silver;
+    font-style: oblique;
+}
+
+.picture {
+    width: 80%;
+    height: 80%;
+    margin: 10% 10%;
+}
+ .pic {
+    border-radius: 30%;
+ }
+
+/*.remove-bg {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}*/
